@@ -6,6 +6,15 @@ body{
     background-color: black;
 }
 
+h1{
+    color: goldenrod;
+    font-size: 4vw;
+    width: fit-content;
+    margin-left: 20px;
+    position: absolute;
+    top: 98vh;
+}
+
 /* Postavljam nepomicnu pozadinu preko celog ekrana */
 #main{
     background-image: url(Slike/COE33_logo_3.png);
@@ -55,15 +64,6 @@ body{
     text-decoration: underline;
 }
 
-/*  */
-
-/* #naslov{
-    font-size: 100px;
-    text-align: center;
-    color:goldenrod;
-    font-family:sans-serif;
-    padding: 200px;
-} */
 
 /*  */
 
@@ -79,7 +79,7 @@ body{
     box-shadow: 0px 5px 5px gray;
     border-radius: 20px;
     width: 30vw;
-    height: 25vh;
+    height: 27vh;
     align-items: center;
 }
 
@@ -120,6 +120,10 @@ body{
     font-family: 'Courier New', Courier, monospace;
     margin-bottom: 30px;
     margin-left: 20px;
+    color:white;
+    background-color: rgb(0,0,0,0.4);
+    width: fit-content;
+    border-radius: 10px;
 }
 
 
@@ -267,8 +271,8 @@ body{
 }
 
 #OpisLika .blokOpis img{
-    width: 300px;
-    height: auto;
+    height: 210px;
+    width: auto;
     margin: auto;
     display: block;
 }
@@ -276,7 +280,7 @@ body{
 #OpisLika{
     display: flex;
     position: relative;
-    top: 30%;
+    top: 20%;
 }
 
 #OpisLika .blokOpis p{
