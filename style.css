@@ -312,4 +312,10 @@ body{
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
+
+}
+
+footer{
+    color:white;
+    text-align:center;
 }
