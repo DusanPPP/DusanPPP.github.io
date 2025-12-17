@@ -79,7 +79,7 @@ h1{
     box-shadow: 0px 5px 5px gray;
     border-radius: 20px;
     width: 30vw;
-    height: 27vh;
+    height: 29vh;
     align-items: center;
 }
 
@@ -326,4 +326,5 @@ h1{
 footer{
     color: white;
     text-align: center;
+
 }
